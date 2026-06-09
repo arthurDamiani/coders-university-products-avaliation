@@ -1,0 +1,20 @@
+insert into products (id, score, name, description, external_link, image_url) values
+  ('seed-product-01', 92, 'Orbit CLI', 'Gerencie seus deploys direto do terminal com poucos comandos.', 'https://example.com/products/orbit-cli', 'https://picsum.photos/seed/seed-product-01/400/240'),
+  ('seed-product-02', 88, 'Pulse Analytics', 'Métricas de produto em tempo real para times de engenharia.', 'https://example.com/products/pulse-analytics', 'https://picsum.photos/seed/seed-product-02/400/240'),
+  ('seed-product-03', 95, 'Codeflow', 'Automação de revisão de código com sugestões inteligentes.', 'https://example.com/products/codeflow', 'https://picsum.photos/seed/seed-product-03/400/240'),
+  ('seed-product-04', 79, 'Nimbus Storage', 'Armazenamento em nuvem otimizado para times de desenvolvimento.', 'https://example.com/products/nimbus-storage', 'https://picsum.photos/seed/seed-product-04/400/240'),
+  ('seed-product-05', 84, 'Lighthouse Monitor', 'Monitoramento de uptime e performance para aplicações web.', 'https://example.com/products/lighthouse-monitor', 'https://picsum.photos/seed/seed-product-05/400/240'),
+  ('seed-product-06', 90, 'Forge Builder', 'Plataforma de CI/CD com pipelines configuráveis em minutos.', 'https://example.com/products/forge-builder', 'https://picsum.photos/seed/seed-product-06/400/240'),
+  ('seed-product-07', 73, 'Echo Notes', 'Anotações colaborativas com sincronização instantânea.', 'https://example.com/products/echo-notes', 'https://picsum.photos/seed/seed-product-07/400/240'),
+  ('seed-product-08', 86, 'Vault Secrets', 'Gerenciamento seguro de segredos e variáveis de ambiente.', 'https://example.com/products/vault-secrets', 'https://picsum.photos/seed/seed-product-08/400/240'),
+  ('seed-product-09', 81, 'Sprint Board', 'Quadro kanban leve para organizar o fluxo de trabalho do time.', 'https://example.com/products/sprint-board', 'https://picsum.photos/seed/seed-product-09/400/240'),
+  ('seed-product-10', 77, 'Beacon Logs', 'Centralização e busca de logs distribuídos em tempo real.', 'https://example.com/products/beacon-logs', 'https://picsum.photos/seed/seed-product-10/400/240'),
+  ('seed-product-11', 89, 'Quantum Queue', 'Filas de mensagens escaláveis para arquiteturas orientadas a eventos.', 'https://example.com/products/quantum-queue', 'https://picsum.photos/seed/seed-product-11/400/240'),
+  ('seed-product-12', 70, 'Drift Designer', 'Editor visual para prototipagem rápida de interfaces.', 'https://example.com/products/drift-designer', 'https://picsum.photos/seed/seed-product-12/400/240'),
+  ('seed-product-13', 93, 'Stack Sentinel', 'Detecção e alerta de vulnerabilidades em dependências.', 'https://example.com/products/stack-sentinel', 'https://picsum.photos/seed/seed-product-13/400/240'),
+  ('seed-product-14', 82, 'Wave Scheduler', 'Agendamento de tarefas recorrentes com retentativas automáticas.', 'https://example.com/products/wave-scheduler', 'https://picsum.photos/seed/seed-product-14/400/240'),
+  ('seed-product-15', 91, 'Glyph Docs', 'Documentação técnica versionada e pesquisável para times.', 'https://example.com/products/glyph-docs', 'https://picsum.photos/seed/seed-product-15/400/240'),
+  ('seed-product-16', 76, 'Pivot Tables', 'Análise de dados com tabelas dinâmicas e exportação rápida.', 'https://example.com/products/pivot-tables', 'https://picsum.photos/seed/seed-product-16/400/240'),
+  ('seed-product-17', 87, 'Relay Webhooks', 'Roteamento e reentrega confiável de webhooks entre serviços.', 'https://example.com/products/relay-webhooks', 'https://picsum.photos/seed/seed-product-17/400/240'),
+  ('seed-product-18', 80, 'Crate Packages', 'Registro privado de pacotes com controle de acesso por time.', 'https://example.com/products/crate-packages', 'https://picsum.photos/seed/seed-product-18/400/240')
+on conflict (id) do nothing;
